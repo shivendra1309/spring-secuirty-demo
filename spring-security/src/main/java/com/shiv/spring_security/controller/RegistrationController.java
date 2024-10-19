@@ -59,6 +59,7 @@ public class RegistrationController {
         String url = applicationUrl + "/verify-registration?token=" + token ;
         //send mail
         log.info("resend url : {}", url);
+
     }
 
     private String applicationUrl(HttpServletRequest request) {
